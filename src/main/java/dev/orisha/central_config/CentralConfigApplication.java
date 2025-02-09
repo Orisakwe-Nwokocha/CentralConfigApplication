@@ -9,6 +9,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class CentralConfigApplication {
 
 	public static void main(String[] args) {
+//		System.setProperty("spring.devtools.restart.enabled", "true");
 		SpringApplication.run(CentralConfigApplication.class, args);
 	}
 
