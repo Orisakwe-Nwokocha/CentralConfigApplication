@@ -13,8 +13,8 @@ spring:
           ignoreLocalSshSettings: true
 #      uri: http://localhost:8773  # Ensure Config Server URI is correctly set
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: refresh
